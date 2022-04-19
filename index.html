@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAULO LUCENA - PROVA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body">
+    <form action="" id="form">
+        <main>
+            <section>
+                <h1>PAULO LUCENA - PROVA</h1>
+                <div>
+                    <input type="text" name="place" id="place" placeholder="Apenas Lestras" required pattern="[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$" >
+                    <input type="submit" onclick="insert()" value="Insert">
+                    <input type="button" onclick="clean()" value="Clean">
+                </div>
+                <h3>Selecione a estrutura dados:</h3>
+                <div>
+                    <input name="opcao" type="radio" value="lista" id="lista">
+                    <label for="lista">Lista</label>
+                </div>
+                <div>
+                    <input name="opcao" type="radio" value="pilha" id="pilha">
+                    <label for="pilha">Pilha</label>
+                </div>
+                            
+            <div class="content">
+                <table aria-label="table">
+                        <h3>Dados:</h3>
+                    <tbody id="tablebody"></tbody>
+                </table>
+            </div>
+            </section>
+        </main>
+    </form>
+    <footer>
+        <p>&copy; Paulo Lucena</p>
+    </footer>
+    <script src="script.js" defer></script>
+</body>
+</html>
