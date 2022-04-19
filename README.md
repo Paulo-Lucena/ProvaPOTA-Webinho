@@ -1,4 +1,4 @@
-# provaPOTA-Webinho
+# Prova POTA
 
 
 ## (QUESTÃO 7)
